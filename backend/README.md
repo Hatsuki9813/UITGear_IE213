@@ -39,10 +39,6 @@ Dự án bao gồm các tính năng chính sau:
 Hướng dẫn chi tiết cách cài đặt và chạy dự án:
 
 ### 1. Clone repo
-```bash
-git clone https://github.com/thoangne/UITGear-backend.git
-cd UITGear-backend
-```
 
 ### 2. Cài đặt dependencies
 ```bash
