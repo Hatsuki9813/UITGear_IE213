@@ -98,31 +98,4 @@ README.md            # Tài liệu dự án
 
 ---
 
-## 🤝 Đóng góp
-
-Nếu bạn muốn đóng góp cho dự án, hãy làm theo các bước sau:
-
-1. **Fork dự án**
-2. **Tạo nhánh mới**
-   ```bash
-   git checkout -b feature/new-feature
-   ```
-3. **Commit thay đổi**
-   ```bash
-   git commit -m 'Thêm tính năng mới'
-   ```
-4. **Push lên nhánh mới**
-   ```bash
-   git push origin feature/new-feature
-   ```
-5. **Tạo Pull Request**
-
----
-
-## 📞 Liên hệ
-
-Nếu có thắc mắc hoặc góp ý, vui lòng liên hệ:
-
-- 📧 Email: [nguythoang2003@gmail.com](mailto:nguythoang2003@gmail.com)
-
 
