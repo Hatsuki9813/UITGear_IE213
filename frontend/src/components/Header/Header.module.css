@@ -1,0 +1,197 @@
+.AllHeader {
+    width: 100%;
+}
+
+.HeaderContainerBackground {
+    background: linear-gradient(to right, #001B48, #02457A);
+}
+
+.HeaderContainer {
+    max-width: 1280px;
+    height: 80px;
+    margin-inline: auto;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.logoLink {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.logoimg {
+    width: auto;
+    height: 100%;
+}
+
+.userButton,
+.cartButton {
+    all: unset;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 12px;
+    border-radius: 5px;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    color: white;
+}
+
+.userButton:hover,
+.cartButton:hover {
+    background-color: #78bdf549;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.avatarIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.cartIcon {
+    width: 24px;
+    height: 24px;
+}
+
+.functioncontainerbackground {
+    background-color: #191d1e;
+    height: auto;
+}
+
+.functioncontainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    position: relative;
+    list-style-type: none;
+    max-width: 1280px;
+    padding: 0px 0 0px 0;
+    position: relative;
+}
+
+.dmsp::after {
+    content: "";
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    height: 5px;
+    z-index: 50;
+}
+
+
+.functioncontainer>* {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.functioncontainer img {
+    margin-right: 10px;
+}
+
+.menuicon {
+    width: 24px;
+    height: 24px;
+}
+
+.functionitem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.container {
+    max-width: 1200px;
+}
+
+.menuRow {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    justify-content: space-between !important;
+}
+
+.menuitem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    color: black;
+}
+
+.functioncontainer>* {
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+
+}
+
+.submenuContainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.submenu {
+    position: absolute;
+    top: 100%;
+    max-width: 1280px;
+    width: 100%;
+    background-color: #001B48;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    padding: 0
+}
+
+.submenu>div {
+    flex: 1;
+    transition: all 0.3s ease;
+}
+
+.submenu>div:hover {
+    background-color: #018abe;
+}
+
+.badge {
+    position: absolute;
+    top: 5px;
+    left: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

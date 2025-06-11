@@ -1,0 +1,30 @@
+:root {
+	--primary-color: #4b83f8;
+	--border-color: #ccc;
+	--header-background-color: #f8f9fa;
+	--background-color: #f7f7f8;
+
+	--user-blocked-color: #fcbcc2;
+
+	--pending-status-color: #b96f00;
+	--processing-status-color: #4b83f8;
+	--shipping-status-color: #8a8a00;
+	--completed-status-color: green;
+	--cancel-status-color: red;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-synthesis: none;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow: hidden;
+}
+
+* {
+	font-family: 'Inter', sans-serif;
+	box-sizing: border-box;
+}

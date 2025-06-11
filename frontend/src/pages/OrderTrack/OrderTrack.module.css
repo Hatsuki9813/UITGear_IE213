@@ -1,0 +1,66 @@
+.OrderTrackContainer {
+	display: flex;
+	flex-direction: column;
+	margin: 0px auto;
+	border: 1px solid #ccc;
+	width: fit-content;
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 4px;
+	min-width: 600px;
+	max-width: 100%;
+	gap: 10px;
+}
+
+h1 {
+	font-size: 1.5rem;
+	align-self: center;
+	font-weight: bold;
+}
+
+.infoContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: #E7F1FD;
+	border: 1px solid #ccc;
+	padding: 10px;
+	gap: 10px;
+}
+
+.result {
+	font-weight: bold;
+	font-size: 1.25rem;
+}
+
+.OrderID {
+	font-size: 1.25rem;
+	font-weight: bold;
+	color: #0056b3;
+	background-color: #d1e7ff;
+	padding: 5px 5px;
+	border-radius: 5px;
+	width: fit-content;
+	border-radius: 4px;
+}
+
+.amount {
+	font-size: 1.25rem;
+	font-weight: 800;
+	color: #1c7007;
+	background-color: #d1ffe6;
+	padding: 5px 5px;
+	border-radius: 5px;
+	width: fit-content;
+	border-radius: 4px;
+}
+
+.error {
+	font-size: 1.25rem;
+	font-weight: 700;
+	color: #700a07;
+	background-color: #ffd8d1;
+	padding: 5px 5px;
+	border-radius: 5px;
+	width: fit-content;
+	border-radius: 4px;
+}
