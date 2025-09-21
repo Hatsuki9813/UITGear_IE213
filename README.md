@@ -21,13 +21,27 @@
 - React JS
 - React Bootstrap 
 - NodeJS ( Express ) 
-- MongoDB 
+- MongoDB
+## 🖼️ Một số hình ảnh
+
+### 🔹 Trang chủ
+<p align="center">
+  <img src="frontend/public/web1.png" alt="Trang chủ" width="600"/>
+</p>
+
+---
+
+### 🔹 Trang Admin
+<p align="center">
+  <img src="frontend/public/web2.png" alt="Trang admin" width="600"/>
+</p>
+
 ## 📖 Cách sử dụng 
 ### 1. Yêu cầu hệ thống
 - Node.js (phiên bản mới nhất)
 - MongoDB
 - Git
-- Thiết bị di động hoặc trình giả lập phù hợp, đã cài đặt Expo Go
+- Thiết bị di động hoặc trình giả lập phù hợp
 ### 2. Cách cài đặt
 1. Clone repository:
    ```bash
@@ -60,3 +74,4 @@
 Nếu có thắc mắc nào, liên hệ chúng tôi
 
 Email: 22520600@gm.uit.edu.vn 22521299@gm.uit.edu.vn
+
